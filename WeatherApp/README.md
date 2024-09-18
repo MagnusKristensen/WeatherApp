@@ -1,0 +1,4 @@
+## Description
+Created as a project in TDT4100, a course in object oriented programming.
+
+The app "WeatherApp" is, as the name suggests, a weather app. Here, users can retrieve weather information from custom locations. Users add custom locations to a list by defining the place name, longitude, and latitude. Then, users can select the desired location and press a button to get the current weather. This provides information about the current temperature, wind, rain, and general weather conditions. Users also get an overview of the weather for the current day and the next 4 days. This includes maximum, minimum, and average temperatures. Similar to the current weather forecast, users can also see wind, rain, and weather conditions. On all screens, users will see a nice illustration of the current weather. Users can save their list of locations by selecting "Save cities" in the menu. These will automatically be loaded the next time the app is opened.

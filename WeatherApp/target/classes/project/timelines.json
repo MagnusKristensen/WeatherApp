@@ -1,0 +1,109 @@
+{
+    "data": {
+        "timelines": [
+            {
+                "timestep": "1d",
+                "endTime": "2024-03-19T05:00:00Z",
+                "startTime": "2024-03-14T05:00:00Z",
+                "intervals": [
+                    {
+                        "startTime": "2024-03-14T05:00:00Z",
+                        "values": {
+                            "rainAccumulationAvg": 0,
+                            "temperatureAvg": 4.92,
+                            "temperatureMax": 9.63,
+                            "temperatureMin": 1.75,
+                            "weatherCode": 1001,
+                            "windSpeedAvg": 3.35
+                        }
+                    },
+                    {
+                        "startTime": "2024-03-15T05:00:00Z",
+                        "values": {
+                            "rainAccumulationAvg": 0.66,
+                            "temperatureAvg": 2.2,
+                            "temperatureMax": 3.44,
+                            "temperatureMin": 1.51,
+                            "weatherCode": 4200,
+                            "windSpeedAvg": 1.88
+                        }
+                    },
+                    {
+                        "startTime": "2024-03-16T05:00:00Z",
+                        "values": {
+                            "rainAccumulationAvg": 0.7,
+                            "temperatureAvg": -1.16,
+                            "temperatureMax": 1.57,
+                            "temperatureMin": -7.2,
+                            "weatherCode": 5000,
+                            "windSpeedAvg": 6.42
+                        }
+                    },
+                    {
+                        "startTime": "2024-03-17T05:00:00Z",
+                        "values": {
+                            "rainAccumulationAvg": 0,
+                            "temperatureAvg": -4.69,
+                            "temperatureMax": 0.39,
+                            "temperatureMin": -10.77,
+                            "weatherCode": 1001,
+                            "windSpeedAvg": 1.47
+                        }
+                    },
+                    {
+                        "startTime": "2024-03-18T05:00:00Z",
+                        "values": {
+                            "rainAccumulationAvg": 0,
+                            "temperatureAvg": -5.1,
+                            "temperatureMax": 0.93,
+                            "temperatureMin": -10.86,
+                            "weatherCode": 1001,
+                            "windSpeedAvg": 1.03
+                        }
+                    },
+                    {
+                        "startTime": "2024-03-19T05:00:00Z",
+                        "values": {
+                            "rainAccumulationAvg": 0,
+                            "temperatureAvg": -1.91,
+                            "temperatureMax": 1.87,
+                            "temperatureMin": -8.15,
+                            "weatherCode": 1001,
+                            "windSpeedAvg": 0.72
+                        }
+                    }
+                ]
+            },
+            {
+                "timestep": "current",
+                "endTime": "2024-03-14T21:13:00Z",
+                "startTime": "2024-03-14T21:13:00Z",
+                "intervals": [
+                    {
+                        "startTime": "2024-03-14T21:13:00Z",
+                        "values": {
+                            "rainAccumulationAvg": 0,
+                            "temperatureAvg": 3.13,
+                            "temperatureMax": 3.13,
+                            "temperatureMin": 3.13,
+                            "weatherCode": 1001,
+                            "windSpeedAvg": 2.38
+                        }
+                    }
+                ]
+            }
+        ],
+        "warnings": [
+            {
+                "code": 246009,
+                "type": "Missing Time Range",
+                "message": "The timestep is not supported in full for the time range requested.",
+                "meta": {
+                    "from": "-12h",
+                    "to": "+12h",
+                    "timestep": "current"
+                }
+            }
+        ]
+    }
+}
